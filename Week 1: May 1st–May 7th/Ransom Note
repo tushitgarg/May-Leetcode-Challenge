@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
-        map<char,int> note , mag;
+        map<char,int> mag;
         int i;
         for(i=0;i<magazine.size();i++)
         {
@@ -26,6 +26,5 @@ public:
             }
         }
         return true;
-        
     }
 };
